@@ -1,11 +1,9 @@
-﻿#include "il2cpp-config.h"
-
+﻿#include "pch-c.h"
 #ifndef _MSC_VER
 # include <alloca.h>
 #else
 # include <malloc.h>
 #endif
-
 
 
 #include "codegen/il2cpp-codegen-metadata.h"
@@ -14,514 +12,415 @@
 
 
 
-IL2CPP_EXTERN_C_BEGIN
-IL2CPP_EXTERN_C_END
-
-
-
-
-// 0x00000001 System.Void UnityEngine.AI.NavMeshPath::.ctor()
-extern void NavMeshPath__ctor_m97A90951BF188A25A9BD247CEDE6C2A8045A1B3C ();
-// 0x00000002 System.Void UnityEngine.AI.NavMeshPath::Finalize()
-extern void NavMeshPath_Finalize_m23F790F8E5479FBF2F8F1DF6154A882FE0D1E8C5 ();
-// 0x00000003 System.IntPtr UnityEngine.AI.NavMeshPath::InitializeNavMeshPath()
-extern void NavMeshPath_InitializeNavMeshPath_m813BB3AF473DA864BCACAA16EACA97FF754F5720 ();
-// 0x00000004 System.Void UnityEngine.AI.NavMeshPath::DestroyNavMeshPath(System.IntPtr)
-extern void NavMeshPath_DestroyNavMeshPath_mA533E9C84A96BCD0D10A3B0CB384378A2269E48F ();
-// 0x00000005 UnityEngine.Vector3[] UnityEngine.AI.NavMeshPath::CalculateCornersInternal()
-extern void NavMeshPath_CalculateCornersInternal_m0F634AB4FF3D313AB384965D6E7AD7EE6062F047 ();
-// 0x00000006 System.Void UnityEngine.AI.NavMeshPath::ClearCornersInternal()
-extern void NavMeshPath_ClearCornersInternal_mAA7B067EB75C4E3DC1B663053DBD6DFC87395277 ();
-// 0x00000007 System.Void UnityEngine.AI.NavMeshPath::ClearCorners()
-extern void NavMeshPath_ClearCorners_mB0B7FF49CE2AAD120C9C8279A9F47467C422C051 ();
-// 0x00000008 System.Void UnityEngine.AI.NavMeshPath::CalculateCorners()
-extern void NavMeshPath_CalculateCorners_mEB2CA95B66A63C50BFEDB7E68E62D58D30C0D740 ();
-// 0x00000009 UnityEngine.Vector3[] UnityEngine.AI.NavMeshPath::get_corners()
-extern void NavMeshPath_get_corners_mE33DBAFAD3C5E7E558138EA6CF026DD9AFEA1FCA ();
-// 0x0000000A UnityEngine.AI.NavMeshPathStatus UnityEngine.AI.NavMeshPath::get_status()
-extern void NavMeshPath_get_status_mD9455D8007F954FD0E487D468D3A3BABAE5FA8EE ();
-// 0x0000000B System.Boolean UnityEngine.AI.NavMeshAgent::SetDestination(UnityEngine.Vector3)
-extern void NavMeshAgent_SetDestination_mDCFFAB501EFCC89E17EA13F49A917D340AEF0BC8 ();
-// 0x0000000C UnityEngine.Vector3 UnityEngine.AI.NavMeshAgent::get_destination()
-extern void NavMeshAgent_get_destination_m6F870DB794CB124DD13B1FF848A6CB049DC9D83E ();
-// 0x0000000D System.Single UnityEngine.AI.NavMeshAgent::get_stoppingDistance()
-extern void NavMeshAgent_get_stoppingDistance_m4C41B6A79D6BF8954981F06B3E31572ABE6F8E81 ();
-// 0x0000000E System.Void UnityEngine.AI.NavMeshAgent::set_stoppingDistance(System.Single)
-extern void NavMeshAgent_set_stoppingDistance_m35D1EA6B92D1C9C4C14458E1565DC8F7DC4313E8 ();
-// 0x0000000F UnityEngine.Vector3 UnityEngine.AI.NavMeshAgent::get_velocity()
-extern void NavMeshAgent_get_velocity_m1CF6CC11732234E2E3EC3B778B79C5492A990186 ();
-// 0x00000010 System.Void UnityEngine.AI.NavMeshAgent::set_velocity(UnityEngine.Vector3)
-extern void NavMeshAgent_set_velocity_m76D7D2F03D759A3A63FB0B1E739650591DE8F876 ();
-// 0x00000011 UnityEngine.Vector3 UnityEngine.AI.NavMeshAgent::get_nextPosition()
-extern void NavMeshAgent_get_nextPosition_m205132AD4D7424904ADC23D862DA82DBF1E60324 ();
-// 0x00000012 UnityEngine.Vector3 UnityEngine.AI.NavMeshAgent::get_steeringTarget()
-extern void NavMeshAgent_get_steeringTarget_m411BD180988E7D64763EFE8799C3899B5FE1B2B3 ();
-// 0x00000013 UnityEngine.Vector3 UnityEngine.AI.NavMeshAgent::get_desiredVelocity()
-extern void NavMeshAgent_get_desiredVelocity_mE10A8D32D38E6C09DDAFDFF924C4032FED344A2D ();
-// 0x00000014 System.Single UnityEngine.AI.NavMeshAgent::get_remainingDistance()
-extern void NavMeshAgent_get_remainingDistance_m47A559FB06896E86E44A8DD7C756722E0E6EA9DB ();
-// 0x00000015 System.Single UnityEngine.AI.NavMeshAgent::get_baseOffset()
-extern void NavMeshAgent_get_baseOffset_mF9D77383CBC4608A3F0F06171D34F5829A72B2DB ();
-// 0x00000016 System.Boolean UnityEngine.AI.NavMeshAgent::get_isOnOffMeshLink()
-extern void NavMeshAgent_get_isOnOffMeshLink_m38DEAC060DE2EF6D5DD76A8565FEE3714B4C8BE6 ();
-// 0x00000017 System.Void UnityEngine.AI.NavMeshAgent::ActivateCurrentOffMeshLink(System.Boolean)
-extern void NavMeshAgent_ActivateCurrentOffMeshLink_m4C7F12261E1E269C573454868A6D2C1EB3B49093 ();
-// 0x00000018 UnityEngine.AI.OffMeshLinkData UnityEngine.AI.NavMeshAgent::get_currentOffMeshLinkData()
-extern void NavMeshAgent_get_currentOffMeshLinkData_mBE074FBE47FBBE2B6870A5A6194551EAA5BF7402 ();
-// 0x00000019 UnityEngine.AI.OffMeshLinkData UnityEngine.AI.NavMeshAgent::GetCurrentOffMeshLinkDataInternal()
-extern void NavMeshAgent_GetCurrentOffMeshLinkDataInternal_mA06FDA5FF5CAC132D2FEA11B99EBDFE5C6506052 ();
-// 0x0000001A UnityEngine.AI.OffMeshLinkData UnityEngine.AI.NavMeshAgent::get_nextOffMeshLinkData()
-extern void NavMeshAgent_get_nextOffMeshLinkData_m6F799B5C12B3D8F17BEC9DA3C8E61B97BA59791E ();
-// 0x0000001B UnityEngine.AI.OffMeshLinkData UnityEngine.AI.NavMeshAgent::GetNextOffMeshLinkDataInternal()
-extern void NavMeshAgent_GetNextOffMeshLinkDataInternal_m0B2D71C3DCC66FC83961EC42FAA61C1542E0992D ();
-// 0x0000001C System.Void UnityEngine.AI.NavMeshAgent::CompleteOffMeshLink()
-extern void NavMeshAgent_CompleteOffMeshLink_m8B87FABB02A4F25EDD43B25D3B8AB1E5564DD526 ();
-// 0x0000001D System.Boolean UnityEngine.AI.NavMeshAgent::get_autoTraverseOffMeshLink()
-extern void NavMeshAgent_get_autoTraverseOffMeshLink_m81B1B5880209311FA5F5C5ED256C7E1BC2786902 ();
-// 0x0000001E System.Void UnityEngine.AI.NavMeshAgent::set_autoTraverseOffMeshLink(System.Boolean)
-extern void NavMeshAgent_set_autoTraverseOffMeshLink_m17EF1B38A7E241F29402334A2D01660DA68D766E ();
-// 0x0000001F System.Boolean UnityEngine.AI.NavMeshAgent::get_autoBraking()
-extern void NavMeshAgent_get_autoBraking_m7F98CFFD8750CDCF0F82EB4A829C93D83A9C7C9C ();
-// 0x00000020 System.Void UnityEngine.AI.NavMeshAgent::set_autoBraking(System.Boolean)
-extern void NavMeshAgent_set_autoBraking_m2B293376C0453D228E7A976449C4970488EF949B ();
-// 0x00000021 System.Boolean UnityEngine.AI.NavMeshAgent::get_autoRepath()
-extern void NavMeshAgent_get_autoRepath_m67E478767FA046933F387C60AB09D19E2D78AAA4 ();
-// 0x00000022 System.Void UnityEngine.AI.NavMeshAgent::set_autoRepath(System.Boolean)
-extern void NavMeshAgent_set_autoRepath_m88A0DC38794D20979FAE19736F736B81CABF7300 ();
-// 0x00000023 System.Boolean UnityEngine.AI.NavMeshAgent::get_hasPath()
-extern void NavMeshAgent_get_hasPath_mBBE9EE18E2E915F36B78E72A6049EFCBD60AA1D5 ();
-// 0x00000024 System.Boolean UnityEngine.AI.NavMeshAgent::get_pathPending()
-extern void NavMeshAgent_get_pathPending_m542D83599C5ED9DD09CB1A981A1F5D4C707542B4 ();
-// 0x00000025 System.Boolean UnityEngine.AI.NavMeshAgent::get_isPathStale()
-extern void NavMeshAgent_get_isPathStale_m12C7377E270FB8A889BC69AA777F9DEF79A5B6FD ();
-// 0x00000026 UnityEngine.AI.NavMeshPathStatus UnityEngine.AI.NavMeshAgent::get_pathStatus()
-extern void NavMeshAgent_get_pathStatus_m4771E65EE49770022C83F97B24E520064F72B22C ();
-// 0x00000027 System.Boolean UnityEngine.AI.NavMeshAgent::Warp(UnityEngine.Vector3)
-extern void NavMeshAgent_Warp_m364A2B156D1325BE4F4907E44D0AAE0416C470BE ();
-// 0x00000028 System.Void UnityEngine.AI.NavMeshAgent::Move(UnityEngine.Vector3)
-extern void NavMeshAgent_Move_m7D0B1AB957FE3BBED5E55CB29B8E1A1D79ABE452 ();
-// 0x00000029 System.Void UnityEngine.AI.NavMeshAgent::Stop()
-extern void NavMeshAgent_Stop_mCF11594F994AC1901F9FF7FC615E170D58506D74 ();
-// 0x0000002A System.Void UnityEngine.AI.NavMeshAgent::Resume()
-extern void NavMeshAgent_Resume_mB0ED3CE7EFFA68CF75FBAA5D2A32EB289FB0A68A ();
-// 0x0000002B System.Boolean UnityEngine.AI.NavMeshAgent::get_isStopped()
-extern void NavMeshAgent_get_isStopped_mDDB1D71B22CDF03B2AB45DF354CD7FBDBB23207B ();
-// 0x0000002C System.Void UnityEngine.AI.NavMeshAgent::set_isStopped(System.Boolean)
-extern void NavMeshAgent_set_isStopped_m3E8EA397B333B4E93272834CC398F87CEA572F81 ();
-// 0x0000002D System.Void UnityEngine.AI.NavMeshAgent::ResetPath()
-extern void NavMeshAgent_ResetPath_m8DBBB03A3FDBB3A70420AE0EC11FE39B5A914DBD ();
-// 0x0000002E System.Boolean UnityEngine.AI.NavMeshAgent::SetPath(UnityEngine.AI.NavMeshPath)
-extern void NavMeshAgent_SetPath_mF7D5D0C94BB1A936E405BE8E300FD2734FE9E24C ();
-// 0x0000002F System.Boolean UnityEngine.AI.NavMeshAgent::FindClosestEdge(UnityEngine.AI.NavMeshHit&)
-extern void NavMeshAgent_FindClosestEdge_m588D272C29C8F8864477583239B450BF2A916C5F ();
-// 0x00000030 System.Boolean UnityEngine.AI.NavMeshAgent::Raycast(UnityEngine.Vector3,UnityEngine.AI.NavMeshHit&)
-extern void NavMeshAgent_Raycast_m0F3ADC0A89013B1B4BD6DCE02CF7C879E3829019 ();
-// 0x00000031 System.Boolean UnityEngine.AI.NavMeshAgent::SamplePathPosition(System.Int32,System.Single,UnityEngine.AI.NavMeshHit&)
-extern void NavMeshAgent_SamplePathPosition_m40E25C1FB5D7DD4C469932C5C070CB06DC92A31D ();
-// 0x00000032 System.Void UnityEngine.AI.NavMeshAgent::SetAreaCost(System.Int32,System.Single)
-extern void NavMeshAgent_SetAreaCost_mDC73FE0792264C180B4790273BDE371C32824EFD ();
-// 0x00000033 System.Single UnityEngine.AI.NavMeshAgent::GetAreaCost(System.Int32)
-extern void NavMeshAgent_GetAreaCost_mC58BAD2C7C18D633760CAE775EF408B5B59F612F ();
-// 0x00000034 System.Int32 UnityEngine.AI.NavMeshAgent::get_areaMask()
-extern void NavMeshAgent_get_areaMask_m6DEDC591AAA3D0E046D7F3967F2E417ECF549709 ();
-// 0x00000035 System.Void UnityEngine.AI.NavMeshAgent::set_areaMask(System.Int32)
-extern void NavMeshAgent_set_areaMask_m5B5E9AE3590E6341CBB15F763D99E3F6DF785C5F ();
-// 0x00000036 System.Single UnityEngine.AI.NavMeshAgent::get_speed()
-extern void NavMeshAgent_get_speed_mED796DC28B1B5D848CA96E1831DA12696A595AC6 ();
-// 0x00000037 System.Void UnityEngine.AI.NavMeshAgent::set_speed(System.Single)
-extern void NavMeshAgent_set_speed_mE709E788BFB285190B9504F6DB3199B35B9B0D35 ();
-// 0x00000038 System.Single UnityEngine.AI.NavMeshAgent::get_angularSpeed()
-extern void NavMeshAgent_get_angularSpeed_m8323CACEEDD36B7FB7F0611094DDAB721D5239B9 ();
-// 0x00000039 System.Void UnityEngine.AI.NavMeshAgent::set_angularSpeed(System.Single)
-extern void NavMeshAgent_set_angularSpeed_m90DB947AF61F1AEA798FF5194961B2DA63219FC0 ();
-// 0x0000003A System.Single UnityEngine.AI.NavMeshAgent::get_acceleration()
-extern void NavMeshAgent_get_acceleration_m32D39F067A655630FDE36E53E6DC77BEAB76D104 ();
-// 0x0000003B System.Void UnityEngine.AI.NavMeshAgent::set_acceleration(System.Single)
-extern void NavMeshAgent_set_acceleration_mA37022F97D535F75B34C7D07FA50A8D89639F3F7 ();
-// 0x0000003C System.Boolean UnityEngine.AI.NavMeshAgent::get_updatePosition()
-extern void NavMeshAgent_get_updatePosition_mB3F9500A6B866A1E24A8D6D3C282A6AF0F42A76C ();
-// 0x0000003D System.Void UnityEngine.AI.NavMeshAgent::set_updatePosition(System.Boolean)
-extern void NavMeshAgent_set_updatePosition_m8F28C0A5DA1051B0EBED424C00F3A7B6656B69F2 ();
-// 0x0000003E System.Boolean UnityEngine.AI.NavMeshAgent::get_updateRotation()
-extern void NavMeshAgent_get_updateRotation_mAFFE2377573F070D2DC84A0DE00D2DA1982A1C39 ();
-// 0x0000003F System.Void UnityEngine.AI.NavMeshAgent::set_updateRotation(System.Boolean)
-extern void NavMeshAgent_set_updateRotation_m1E4DC8D291EFB628A3A2D353DB7B3E2C54321084 ();
-// 0x00000040 System.Single UnityEngine.AI.NavMeshAgent::get_radius()
-extern void NavMeshAgent_get_radius_m198C01AF5BF7DEBB051A058598118B6338A51AF6 ();
-// 0x00000041 System.Void UnityEngine.AI.NavMeshAgent::set_radius(System.Single)
-extern void NavMeshAgent_set_radius_m2E463B45C10BF90FB30A154104FF2B34DCDD50FB ();
-// 0x00000042 System.Single UnityEngine.AI.NavMeshAgent::get_height()
-extern void NavMeshAgent_get_height_m20E9A1FF19845A0BDA3853731E22D51CCAA85E88 ();
-// 0x00000043 System.Void UnityEngine.AI.NavMeshAgent::set_height(System.Single)
-extern void NavMeshAgent_set_height_mA2242A62C68F278070968A9792598EA0CE27FE2B ();
-// 0x00000044 UnityEngine.AI.ObstacleAvoidanceType UnityEngine.AI.NavMeshAgent::get_obstacleAvoidanceType()
-extern void NavMeshAgent_get_obstacleAvoidanceType_m80675EC9FB6AC24BE3BFA3AE743DFBEAD8211249 ();
-// 0x00000045 System.Void UnityEngine.AI.NavMeshAgent::set_obstacleAvoidanceType(UnityEngine.AI.ObstacleAvoidanceType)
-extern void NavMeshAgent_set_obstacleAvoidanceType_m91F68AD6A6DCAFE076BE152BE713A8FDFFE154E3 ();
-// 0x00000046 System.Int32 UnityEngine.AI.NavMeshAgent::get_avoidancePriority()
-extern void NavMeshAgent_get_avoidancePriority_m8515DE816EF0F3375E3C9A6DFC056A1D06ADE17F ();
-// 0x00000047 System.Void UnityEngine.AI.NavMeshAgent::set_avoidancePriority(System.Int32)
-extern void NavMeshAgent_set_avoidancePriority_mE28A441410C3BB27917007729ADED20FCB397740 ();
-// 0x00000048 System.Boolean UnityEngine.AI.NavMeshAgent::SetDestination_Injected(UnityEngine.Vector3&)
-extern void NavMeshAgent_SetDestination_Injected_m03F00018E71D91B109510C2EF1F01A3ECD84FF89 ();
-// 0x00000049 System.Void UnityEngine.AI.NavMeshAgent::get_destination_Injected(UnityEngine.Vector3&)
-extern void NavMeshAgent_get_destination_Injected_m9511EDAA7C1AB027DA66BC4B41F42A5423F09B60 ();
-// 0x0000004A System.Void UnityEngine.AI.NavMeshAgent::get_velocity_Injected(UnityEngine.Vector3&)
-extern void NavMeshAgent_get_velocity_Injected_mBBFC5D1D8F50C16F9ACD5FCC0A0E50A0FE525FB3 ();
-// 0x0000004B System.Void UnityEngine.AI.NavMeshAgent::set_velocity_Injected(UnityEngine.Vector3&)
-extern void NavMeshAgent_set_velocity_Injected_m9ADDFC4830CD5FDCCD02BAE604CC87823547DF69 ();
-// 0x0000004C System.Void UnityEngine.AI.NavMeshAgent::get_nextPosition_Injected(UnityEngine.Vector3&)
-extern void NavMeshAgent_get_nextPosition_Injected_m2A9B049296CEF9061ECF549009817F9BD4AF75FD ();
-// 0x0000004D System.Void UnityEngine.AI.NavMeshAgent::get_steeringTarget_Injected(UnityEngine.Vector3&)
-extern void NavMeshAgent_get_steeringTarget_Injected_mA5A105C0063088BDBB242C3515F6A97928F997E5 ();
-// 0x0000004E System.Void UnityEngine.AI.NavMeshAgent::get_desiredVelocity_Injected(UnityEngine.Vector3&)
-extern void NavMeshAgent_get_desiredVelocity_Injected_m57EB8C1C7151A42BBEC5677CE1E5823AAE6F6D8A ();
-// 0x0000004F System.Void UnityEngine.AI.NavMeshAgent::GetCurrentOffMeshLinkDataInternal_Injected(UnityEngine.AI.OffMeshLinkData&)
-extern void NavMeshAgent_GetCurrentOffMeshLinkDataInternal_Injected_m00377CC810AFA5B16992273B778B4D4AF93B9C17 ();
-// 0x00000050 System.Void UnityEngine.AI.NavMeshAgent::GetNextOffMeshLinkDataInternal_Injected(UnityEngine.AI.OffMeshLinkData&)
-extern void NavMeshAgent_GetNextOffMeshLinkDataInternal_Injected_mD14E1390356AB8C121106B088FAB4855639FB3D2 ();
-// 0x00000051 System.Boolean UnityEngine.AI.NavMeshAgent::Warp_Injected(UnityEngine.Vector3&)
-extern void NavMeshAgent_Warp_Injected_mFCA10F43C2EF33F19B74AD59EC9E4F57179E60CC ();
-// 0x00000052 System.Void UnityEngine.AI.NavMeshAgent::Move_Injected(UnityEngine.Vector3&)
-extern void NavMeshAgent_Move_Injected_mC4C4018AE7B0382743D0E65A312F1585722F9388 ();
-// 0x00000053 System.Boolean UnityEngine.AI.NavMeshAgent::Raycast_Injected(UnityEngine.Vector3&,UnityEngine.AI.NavMeshHit&)
-extern void NavMeshAgent_Raycast_Injected_m972395B660B32ACB5D520142DE72C4179925D9EB ();
-// 0x00000054 System.Boolean UnityEngine.AI.OffMeshLinkData::get_valid()
-extern void OffMeshLinkData_get_valid_m0AF43B2E1EA3DB26D0C252F75A674489FF3B8704_AdjustorThunk ();
-// 0x00000055 System.Boolean UnityEngine.AI.OffMeshLinkData::get_activated()
-extern void OffMeshLinkData_get_activated_m2188593A94B2E63FE49918E2E55F644758B485B8_AdjustorThunk ();
-// 0x00000056 UnityEngine.AI.OffMeshLinkType UnityEngine.AI.OffMeshLinkData::get_linkType()
-extern void OffMeshLinkData_get_linkType_mCC2045B8FD2C87BAB822A89C737C4052F4428B3A_AdjustorThunk ();
-// 0x00000057 UnityEngine.Vector3 UnityEngine.AI.OffMeshLinkData::get_startPos()
-extern void OffMeshLinkData_get_startPos_mE4F3E1584843DA41AEB4E825D6B4BC3402BAE102_AdjustorThunk ();
-// 0x00000058 UnityEngine.Vector3 UnityEngine.AI.OffMeshLinkData::get_endPos()
-extern void OffMeshLinkData_get_endPos_m5323AA6DD85DF5931D9C4FA5B29D28865AD8C1AB_AdjustorThunk ();
-// 0x00000059 UnityEngine.AI.OffMeshLink UnityEngine.AI.OffMeshLinkData::get_offMeshLink()
-extern void OffMeshLinkData_get_offMeshLink_mFDED08416F4EA085C5CF9E78C229E11377638FCD_AdjustorThunk ();
-// 0x0000005A UnityEngine.AI.OffMeshLink UnityEngine.AI.OffMeshLinkData::GetOffMeshLinkInternal(System.Int32)
-extern void OffMeshLinkData_GetOffMeshLinkInternal_m7EF22119D979345D782AB112322930B557EDCAF7 ();
-// 0x0000005B System.Boolean UnityEngine.AI.OffMeshLink::get_activated()
-extern void OffMeshLink_get_activated_m886A3D4A1A19E7095A62DC4104E3EFAAAEBD0E36 ();
-// 0x0000005C System.Boolean UnityEngine.AI.OffMeshLink::get_occupied()
-extern void OffMeshLink_get_occupied_m21E52EBB909F18B71DE5B8D3F44F2D19496D0C83 ();
-// 0x0000005D System.Single UnityEngine.AI.OffMeshLink::get_costOverride()
-extern void OffMeshLink_get_costOverride_mE8457C78C3C37E26CF75313EC89CC344494CB2DB ();
-// 0x0000005E System.Boolean UnityEngine.AI.OffMeshLink::get_biDirectional()
-extern void OffMeshLink_get_biDirectional_m9F2A75C340EA577EB301224905D74DED2AF42C8B ();
-// 0x0000005F System.Int32 UnityEngine.AI.OffMeshLink::get_area()
-extern void OffMeshLink_get_area_m2D096C13D51088E43B262769ADDB0478F9991829 ();
-// 0x00000060 System.Boolean UnityEngine.AI.OffMeshLink::get_autoUpdatePositions()
-extern void OffMeshLink_get_autoUpdatePositions_m1928672A949E39583C43A1AE3140DA6B60ECBFF3 ();
-// 0x00000061 UnityEngine.Transform UnityEngine.AI.OffMeshLink::get_startTransform()
-extern void OffMeshLink_get_startTransform_mF41F10A6AD72A4AEEC844F89F670A7E358E75AF7 ();
-// 0x00000062 UnityEngine.Transform UnityEngine.AI.OffMeshLink::get_endTransform()
-extern void OffMeshLink_get_endTransform_m7ED02E906DA8D0E355A78690028DF517C9BD0B93 ();
-// 0x00000063 System.Void UnityEngine.AI.OffMeshLink::.ctor()
-extern void OffMeshLink__ctor_m0104211F63E10AC2EDF28AC064B142FEBD0C0316 ();
-// 0x00000064 UnityEngine.Vector3 UnityEngine.AI.NavMeshHit::get_position()
-extern void NavMeshHit_get_position_m0AEED90D6B4FDE74045975E40B0A9C365F152F9E_AdjustorThunk ();
-// 0x00000065 UnityEngine.Vector3 UnityEngine.AI.NavMeshHit::get_normal()
-extern void NavMeshHit_get_normal_mE6E0C698EE5B90000B039D3219B31B3CC8C1313A_AdjustorThunk ();
-// 0x00000066 System.Single UnityEngine.AI.NavMeshHit::get_distance()
-extern void NavMeshHit_get_distance_m7C4397469489D9A3F5758B0EA4E4E9CF9C753F82_AdjustorThunk ();
-// 0x00000067 System.Int32 UnityEngine.AI.NavMeshHit::get_mask()
-extern void NavMeshHit_get_mask_mCCB5AAE13E84AD0037F8A68ACB846DBC532E1E43_AdjustorThunk ();
-// 0x00000068 System.Boolean UnityEngine.AI.NavMeshHit::get_hit()
-extern void NavMeshHit_get_hit_mCFD12D7F847527E72786363ACDB9FFCBA59C6697_AdjustorThunk ();
-// 0x00000069 System.Void UnityEngine.AI.NavMesh::Internal_CallOnNavMeshPreUpdate()
-extern void NavMesh_Internal_CallOnNavMeshPreUpdate_mED6CAB94A6CB61A5FD547B7026DB4C96F2AF5B60 ();
-// 0x0000006A System.Boolean UnityEngine.AI.NavMesh::Raycast(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.AI.NavMeshHit&,System.Int32)
-extern void NavMesh_Raycast_m0E4247157F4146EEB3767DCE8D06A756A587F5D7 ();
-// 0x0000006B System.Boolean UnityEngine.AI.NavMesh::CalculatePath(UnityEngine.Vector3,UnityEngine.Vector3,System.Int32,UnityEngine.AI.NavMeshPath)
-extern void NavMesh_CalculatePath_mCF9690B429137161B20FF8AEA81DB02A1D825D62 ();
-// 0x0000006C System.Boolean UnityEngine.AI.NavMesh::CalculatePathInternal(UnityEngine.Vector3,UnityEngine.Vector3,System.Int32,UnityEngine.AI.NavMeshPath)
-extern void NavMesh_CalculatePathInternal_m5D4F3A7F26D2A2FA51E85D29E279CA70919C764C ();
-// 0x0000006D System.Boolean UnityEngine.AI.NavMesh::FindClosestEdge(UnityEngine.Vector3,UnityEngine.AI.NavMeshHit&,System.Int32)
-extern void NavMesh_FindClosestEdge_m1555BBE4B7C5DE4C45B05205E383416260DDC462 ();
-// 0x0000006E System.Boolean UnityEngine.AI.NavMesh::SamplePosition(UnityEngine.Vector3,UnityEngine.AI.NavMeshHit&,System.Single,System.Int32)
-extern void NavMesh_SamplePosition_m783F8639449F56E7CA222A58E40323404E56C19E ();
-// 0x0000006F System.Void UnityEngine.AI.NavMesh::SetAreaCost(System.Int32,System.Single)
-extern void NavMesh_SetAreaCost_mDAEA264387A5E2154D8CF0761F2F305B21046BE9 ();
-// 0x00000070 System.Single UnityEngine.AI.NavMesh::GetAreaCost(System.Int32)
-extern void NavMesh_GetAreaCost_m15C8B162C0AAB96E531D674CB367E0ADDA78F333 ();
-// 0x00000071 System.Int32 UnityEngine.AI.NavMesh::GetAreaFromName(System.String)
-extern void NavMesh_GetAreaFromName_m3796CB0ABAFEDDBFC94792B8888926A17361CD81 ();
-// 0x00000072 System.Boolean UnityEngine.AI.NavMesh::Raycast_Injected(UnityEngine.Vector3&,UnityEngine.Vector3&,UnityEngine.AI.NavMeshHit&,System.Int32)
-extern void NavMesh_Raycast_Injected_mEAF30F89A8557A0F3C538143FC855039F9067E63 ();
-// 0x00000073 System.Boolean UnityEngine.AI.NavMesh::CalculatePathInternal_Injected(UnityEngine.Vector3&,UnityEngine.Vector3&,System.Int32,UnityEngine.AI.NavMeshPath)
-extern void NavMesh_CalculatePathInternal_Injected_mF0ED4ECC69594E07FC412C14366F68BB29AE28F5 ();
-// 0x00000074 System.Boolean UnityEngine.AI.NavMesh::FindClosestEdge_Injected(UnityEngine.Vector3&,UnityEngine.AI.NavMeshHit&,System.Int32)
-extern void NavMesh_FindClosestEdge_Injected_m41EFCB3C5D679FC2F7C37AE713D72BA3C4EA2C1C ();
-// 0x00000075 System.Boolean UnityEngine.AI.NavMesh::SamplePosition_Injected(UnityEngine.Vector3&,UnityEngine.AI.NavMeshHit&,System.Single,System.Int32)
-extern void NavMesh_SamplePosition_Injected_mF979357B944CC071BB59B94C8962F664F9390550 ();
-// 0x00000076 System.Void UnityEngine.AI.NavMesh_OnNavMeshPreUpdate::.ctor(System.Object,System.IntPtr)
-extern void OnNavMeshPreUpdate__ctor_mD019C429BD8D299B85C320A6EFB2FFEDC3F85F42 ();
-// 0x00000077 System.Void UnityEngine.AI.NavMesh_OnNavMeshPreUpdate::Invoke()
-extern void OnNavMeshPreUpdate_Invoke_mE56CD30B200FECFD94AD4B22923B32BD789D70F0 ();
-// 0x00000078 System.IAsyncResult UnityEngine.AI.NavMesh_OnNavMeshPreUpdate::BeginInvoke(System.AsyncCallback,System.Object)
-extern void OnNavMeshPreUpdate_BeginInvoke_m67FA7767274E77169A57ADFE041EA9B914E752C6 ();
-// 0x00000079 System.Void UnityEngine.AI.NavMesh_OnNavMeshPreUpdate::EndInvoke(System.IAsyncResult)
-extern void OnNavMeshPreUpdate_EndInvoke_mB55765702AA123A6D7C3DF8DDC597E3DEBC79836 ();
-static Il2CppMethodPointer s_methodPointers[121] = 
+extern void NavMeshAgent_SetDestination_mD5D960933827F1F14B29CF4A3B6F305C064EBF46 (void);
+extern void NavMeshAgent_get_destination_m1BE2C5EEF53F7EB6317449726C99E0D0955C677E (void);
+extern void NavMeshAgent_get_stoppingDistance_mA866A409C59878849D63BEC61517DE4F906BEEC4 (void);
+extern void NavMeshAgent_set_stoppingDistance_m288A6280B55AAFF8578286747E19AF409C7C177F (void);
+extern void NavMeshAgent_get_velocity_m028219D0E4678D727F00C53AE3DCBCF29AF04DA7 (void);
+extern void NavMeshAgent_set_velocity_m3C061136C7F338D33A5DE734B5C364326F6F4B31 (void);
+extern void NavMeshAgent_get_nextPosition_m2EA2776CDA9032AE13B697C0F2FC2DD1194307BE (void);
+extern void NavMeshAgent_get_steeringTarget_mA2DB66413FC7628DCDB1DECF38269A70EC60351C (void);
+extern void NavMeshAgent_get_desiredVelocity_m8CF3F6E3FA8EE86397DD02146AA6048949B74F52 (void);
+extern void NavMeshAgent_get_remainingDistance_m051C1B408E2740A95B5A5577C5EC7222311AA73A (void);
+extern void NavMeshAgent_get_baseOffset_m4DACBF9B4216DFDC8F1F74DD80C1F2FEED6C5951 (void);
+extern void NavMeshAgent_get_isOnOffMeshLink_m1A41E849AC5CDDC81F14288FA69C4159090157FC (void);
+extern void NavMeshAgent_ActivateCurrentOffMeshLink_m47987303EF43734AA8997AF7D9BB97C4F4D27477 (void);
+extern void NavMeshAgent_get_currentOffMeshLinkData_m3C29286C945248C78CD40C544606D0BFA6EC5028 (void);
+extern void NavMeshAgent_GetCurrentOffMeshLinkDataInternal_m00D8106BBA99C267CAC0A360DE74DCB87709DD26 (void);
+extern void NavMeshAgent_get_nextOffMeshLinkData_mFC373D1BA567F89B5293257F00C24FE31E5A1585 (void);
+extern void NavMeshAgent_GetNextOffMeshLinkDataInternal_mF455C74B63F15D0ED3C7C995567759492D4400C1 (void);
+extern void NavMeshAgent_CompleteOffMeshLink_mD0E51EF45F50FB6FBA70F86E1DBB4DF54651853D (void);
+extern void NavMeshAgent_get_autoTraverseOffMeshLink_mD5DF56E23AC1424496785C83AE44F1DB83F953F4 (void);
+extern void NavMeshAgent_set_autoTraverseOffMeshLink_m68DDB55CB2557A1A69534212B896A0C52146841A (void);
+extern void NavMeshAgent_get_autoBraking_mC30BD28DED5FBB909314808F5D11409B126DF49C (void);
+extern void NavMeshAgent_set_autoBraking_m3BBDC74E6ADC3EB8BE0381C97B1D8715C1BC5283 (void);
+extern void NavMeshAgent_get_autoRepath_m191D1F1708A9A2E6060CAD0E0965D18E635BAF72 (void);
+extern void NavMeshAgent_set_autoRepath_mDF2F2C2AEA95552CF5C183DC0A471AF3EE7BAF9F (void);
+extern void NavMeshAgent_get_hasPath_mE56295431F7774ADC8C39CFD87E13073DDDA178A (void);
+extern void NavMeshAgent_get_pathPending_mA806A4DC1E06CA32A4E7E71B6846B516EC8C2487 (void);
+extern void NavMeshAgent_get_isPathStale_m346E8A08F9709FA223EA26A37B259B806D916533 (void);
+extern void NavMeshAgent_get_pathStatus_m86F0B08D0018E3230218F8ED3A7C522A3765B648 (void);
+extern void NavMeshAgent_Warp_mAD14E576F74544EEDAD0AF097E498C58D3C0E4F5 (void);
+extern void NavMeshAgent_Move_m90D996635C2056733BB3497CB716DA2E8CB9DCB9 (void);
+extern void NavMeshAgent_Stop_m54AC1CA5B0CF2A3F02FC0746D99995B5A0FFC706 (void);
+extern void NavMeshAgent_Resume_m8AEA32BF25F490639E692879BF6000F550880DD7 (void);
+extern void NavMeshAgent_get_isStopped_m1CF52CE58CC025C1617F9E745924624C35D0B598 (void);
+extern void NavMeshAgent_set_isStopped_mF374E697F39845233B84D8C4873DEABC3AA490DF (void);
+extern void NavMeshAgent_ResetPath_mE29D3956C1BFABDB3D6B4B7DF2B376B4EEB24E7F (void);
+extern void NavMeshAgent_SetPath_m52F66FD27D02DE634BAF3AC2B521017B4299DB8C (void);
+extern void NavMeshAgent_FindClosestEdge_mA55CBF92C20E11FC2F2A6F18F3B22441112AD36B (void);
+extern void NavMeshAgent_Raycast_m9F55253A08170D3CD6AC2B7EDCABE78F255F1ACB (void);
+extern void NavMeshAgent_SamplePathPosition_m6D4FD92B8727871A131A1E20AF0F3EDE20AE694A (void);
+extern void NavMeshAgent_SetAreaCost_mADAA5F8F12B0DA6E5D1842EBEB5D136FDBFCF69F (void);
+extern void NavMeshAgent_GetAreaCost_m881A90DAE297DACC2175133B52FC1EB36E128F35 (void);
+extern void NavMeshAgent_get_areaMask_m7C52D09097A66CC43AA0F1237E59ECE4340F62F7 (void);
+extern void NavMeshAgent_set_areaMask_m0ABFF50C3D80EC90887AB44BCDDB0935CE947DC2 (void);
+extern void NavMeshAgent_get_speed_m3E4720882ED0C65A4E19AADD53BB6CFFB5BB1345 (void);
+extern void NavMeshAgent_set_speed_m820E45289B3AE7DEE16F2F4BF163EAC361E64646 (void);
+extern void NavMeshAgent_get_angularSpeed_m3767F066BFA2C5130EB4662234442B530ACC0290 (void);
+extern void NavMeshAgent_set_angularSpeed_mD2AE9EE187EF1C45F519576B5FC8581DC6B7D683 (void);
+extern void NavMeshAgent_get_acceleration_m130C96AAA6246983D17AEB4EB4FC6ECAE9800D5E (void);
+extern void NavMeshAgent_set_acceleration_mEAA92D7837B8D726891846DBBB6114DB13CD597E (void);
+extern void NavMeshAgent_get_updatePosition_m7A3ECBAC5345D34EF8896E7ACEDB9E459FFBD9AB (void);
+extern void NavMeshAgent_set_updatePosition_m25CA3F441A2EEC82096B4BCFAD4E5FDC10867372 (void);
+extern void NavMeshAgent_get_updateRotation_m931B37F6BA4D560A9838ACD89A1470975E4D8F4D (void);
+extern void NavMeshAgent_set_updateRotation_mBF6EDBC9BBAF32490229D7DD6BC821A420C3399D (void);
+extern void NavMeshAgent_get_radius_m33C1D18A2605A958FE9E93F04981EB17FADE5957 (void);
+extern void NavMeshAgent_set_radius_m34F08DD2BD01A5DDA17FE1B02EE03D361B44F1AC (void);
+extern void NavMeshAgent_get_height_m4C491622BF6FCDD917CDBD5650331CB90EF148D8 (void);
+extern void NavMeshAgent_set_height_mD2993FBF9895084E9F92025808E3307B92E057DA (void);
+extern void NavMeshAgent_get_obstacleAvoidanceType_mE34163AD71944C30335B61CAA5024F4C7E585EFE (void);
+extern void NavMeshAgent_set_obstacleAvoidanceType_m4EF45925BCFD06A3A0FA64412F91687D40A738EF (void);
+extern void NavMeshAgent_get_avoidancePriority_m869E039275C430F74191DF92A8B4FAB1364BC4A3 (void);
+extern void NavMeshAgent_set_avoidancePriority_m32203249C25C68E57764E9B6DB987D97EA846EC9 (void);
+extern void NavMeshAgent_get_isOnNavMesh_m2463F49C3F37E9D3F68C04300FE5AF310C924405 (void);
+extern void NavMeshAgent_SetDestination_Injected_mC3EF405F5AAFF9F98C5D5AECAD641525CDF742EA (void);
+extern void NavMeshAgent_get_destination_Injected_m864513574C2AD2BA558D85B213CC518C064F893A (void);
+extern void NavMeshAgent_get_velocity_Injected_m40A3E476CECB49AE84CA70761FB01FB5644B1735 (void);
+extern void NavMeshAgent_set_velocity_Injected_m4F31B6257367AC3928D11C90C95AB9117692753B (void);
+extern void NavMeshAgent_get_nextPosition_Injected_m2955C285746F64E42865E074048341DE713A8EA0 (void);
+extern void NavMeshAgent_get_steeringTarget_Injected_m00761894AB2F3B67A8775949DBF465506CD78DE1 (void);
+extern void NavMeshAgent_get_desiredVelocity_Injected_m8793EE07C8733261F15C392B983113CBD225DA41 (void);
+extern void NavMeshAgent_GetCurrentOffMeshLinkDataInternal_Injected_m20A673BF8CB87029AC2119A6C24B648EF624BDB6 (void);
+extern void NavMeshAgent_GetNextOffMeshLinkDataInternal_Injected_mABF319B448FCC4CC42D0EFA3D5A31122271CD72A (void);
+extern void NavMeshAgent_Warp_Injected_m408EB62DABE62C1C5B568598DBF54FDCA502E56E (void);
+extern void NavMeshAgent_Move_Injected_m470CF469F6DE021B2C44A4CB3619AC9C441491D8 (void);
+extern void NavMeshAgent_Raycast_Injected_m5FE7F79B900F3277C01D847E2FA0A6075D4D0015 (void);
+extern void OffMeshLinkData_get_valid_m4B3E7BF807D9BBD61CD829FC5585F9460B823995 (void);
+extern void OffMeshLinkData_get_activated_m921AD9DDD53B4E18CD991A2D7AF355828643916F (void);
+extern void OffMeshLinkData_get_linkType_mAAED25B893C730527A303F9B0D2D720337987418 (void);
+extern void OffMeshLinkData_get_startPos_mE729D30C00CE20C1B54E92C0D06AA34FCC1C7E16 (void);
+extern void OffMeshLinkData_get_endPos_m51E9004D45E0DC1D9481DEED18E344CD7EFED7A8 (void);
+extern void OffMeshLinkData_get_offMeshLink_mCE63ED9125991BDEB961C01E4C8C957F396B9CEE (void);
+extern void OffMeshLinkData_GetOffMeshLinkInternal_mC841DD99A0DC4AA4F1C0D81A670B41A260C7B45B (void);
+extern void OffMeshLink_get_activated_m29F093186EC0A119CD94C4FD772E665FDA50A770 (void);
+extern void OffMeshLink_get_occupied_m1616B04698D535E868BD2E00D7118DE08B4CA721 (void);
+extern void OffMeshLink_get_costOverride_m2B078774331FDF57954E173393F8E94C8B0F81BF (void);
+extern void OffMeshLink_get_biDirectional_m4D162A4F9A71D7E4FA6A027B95F9DD66A5CE85FF (void);
+extern void OffMeshLink_get_area_m22933F2D04CD0BBE5048C5F377184669B429A754 (void);
+extern void OffMeshLink_get_autoUpdatePositions_mD554C055303779396F013245BD32FDBE8239BBDB (void);
+extern void OffMeshLink_get_startTransform_mE75BE135D06ED4247C969B4E9D885F2433C97D13 (void);
+extern void OffMeshLink_get_endTransform_mBF33A22072BBCF25485E0F932A06AE0C507A3B37 (void);
+extern void OffMeshLink__ctor_m4A49ABF8B6C05AB98A90A7E921CD3837DAA916C1 (void);
+extern void NavMeshHit_get_position_m09E8FF6DEF5BFA3F30B3C4BCA4642442FF1BCBF1 (void);
+extern void NavMeshHit_get_normal_m5E0148A2DCFFFC8C1FFD624DB5423192BCA29F2E (void);
+extern void NavMeshHit_get_distance_m2B9E0F1A139278132493964480B1A833A4FCCFEB (void);
+extern void NavMeshHit_get_mask_m90866159EFD74EC854857ED33CBF1BA9BC04E927 (void);
+extern void NavMeshHit_get_hit_m0D3EB9A3D6C24F769F3B994DC7326254B64EDD8E (void);
+extern void NavMesh_Internal_CallOnNavMeshPreUpdate_m2A62DB32F5E1435F527AD8A59A882B9F2A193177 (void);
+extern void NavMesh_Raycast_m58FCFBAEC3D9E6F5A9537ED6782DDE066BD25FB7 (void);
+extern void NavMesh_CalculatePath_m15FF9A2E008A90375072B9293D290D9167E580E9 (void);
+extern void NavMesh_CalculatePathInternal_m4463C51C0B2370D61653C4BC002C2A4AB7C5370F (void);
+extern void NavMesh_FindClosestEdge_mB15BD11F352180085D038CBE8F1DB85CCD4D0B70 (void);
+extern void NavMesh_SamplePosition_mEDAE8240217EED82B4519D4435E670A1655B2109 (void);
+extern void NavMesh_SetAreaCost_m1D9E4FA3707EEF9CF6FC540B0D8A1B666FC587F6 (void);
+extern void NavMesh_GetAreaCost_mD77D3F4F07CD03F73C8D794146C889F587930C70 (void);
+extern void NavMesh_GetAreaFromName_m44C63F9ED1E0435B234699835C69A915BBC6580F (void);
+extern void NavMesh_Raycast_Injected_mD910319CCE7809C826DD0D502FDD8CD78E0BC331 (void);
+extern void NavMesh_CalculatePathInternal_Injected_mA35693202F3421933D42D9DF44F6CB0880E3EEEA (void);
+extern void NavMesh_FindClosestEdge_Injected_mDE3BC2E6BB797C58A690B2E18F601B59DC699DC2 (void);
+extern void NavMesh_SamplePosition_Injected_m57BB80634365C0545A79CC653FCFECAA1879C6F0 (void);
+extern void OnNavMeshPreUpdate__ctor_m7142A3AA991BE50B637A16D946AB7604C64EF9BA (void);
+extern void OnNavMeshPreUpdate_Invoke_mFB224B9BBF9C78B7F39AA91A047F175C69897914 (void);
+extern void NavMeshPath__ctor_mEA40BFC2492814FFC97A71C3AEC2154A9415C37F (void);
+extern void NavMeshPath_Finalize_mB151BFBD5D7E65C343415B6B332A58504F12AF77 (void);
+extern void NavMeshPath_InitializeNavMeshPath_m14652B99A3EFB12B428AC2C959A629EE906DE5F1 (void);
+extern void NavMeshPath_DestroyNavMeshPath_mAB640913E8A9F1BE03EF9103FF34D5F4C5EBE3F7 (void);
+extern void NavMeshPath_CalculateCornersInternal_m59C910C60F8C28D4E387C93B299B7D3F76213850 (void);
+extern void NavMeshPath_ClearCornersInternal_m2310C5CB9B4EB2B3C4685476B2CF8440ED369606 (void);
+extern void NavMeshPath_ClearCorners_m8633C3989850C01982EBD3D4BC70E85AF461CE5B (void);
+extern void NavMeshPath_CalculateCorners_mFC7D66E9304DE81D6030B3FEB237754DFFFDF548 (void);
+extern void NavMeshPath_get_corners_m469237DE430A001BE7050BEF5D05A20B94D76F3E (void);
+extern void NavMeshPath_get_status_m63B0AEDA3149C7053987C4D0A02B3FE8B41BD74B (void);
+static Il2CppMethodPointer s_methodPointers[120] = 
 {
-	NavMeshPath__ctor_m97A90951BF188A25A9BD247CEDE6C2A8045A1B3C,
-	NavMeshPath_Finalize_m23F790F8E5479FBF2F8F1DF6154A882FE0D1E8C5,
-	NavMeshPath_InitializeNavMeshPath_m813BB3AF473DA864BCACAA16EACA97FF754F5720,
-	NavMeshPath_DestroyNavMeshPath_mA533E9C84A96BCD0D10A3B0CB384378A2269E48F,
-	NavMeshPath_CalculateCornersInternal_m0F634AB4FF3D313AB384965D6E7AD7EE6062F047,
-	NavMeshPath_ClearCornersInternal_mAA7B067EB75C4E3DC1B663053DBD6DFC87395277,
-	NavMeshPath_ClearCorners_mB0B7FF49CE2AAD120C9C8279A9F47467C422C051,
-	NavMeshPath_CalculateCorners_mEB2CA95B66A63C50BFEDB7E68E62D58D30C0D740,
-	NavMeshPath_get_corners_mE33DBAFAD3C5E7E558138EA6CF026DD9AFEA1FCA,
-	NavMeshPath_get_status_mD9455D8007F954FD0E487D468D3A3BABAE5FA8EE,
-	NavMeshAgent_SetDestination_mDCFFAB501EFCC89E17EA13F49A917D340AEF0BC8,
-	NavMeshAgent_get_destination_m6F870DB794CB124DD13B1FF848A6CB049DC9D83E,
-	NavMeshAgent_get_stoppingDistance_m4C41B6A79D6BF8954981F06B3E31572ABE6F8E81,
-	NavMeshAgent_set_stoppingDistance_m35D1EA6B92D1C9C4C14458E1565DC8F7DC4313E8,
-	NavMeshAgent_get_velocity_m1CF6CC11732234E2E3EC3B778B79C5492A990186,
-	NavMeshAgent_set_velocity_m76D7D2F03D759A3A63FB0B1E739650591DE8F876,
-	NavMeshAgent_get_nextPosition_m205132AD4D7424904ADC23D862DA82DBF1E60324,
-	NavMeshAgent_get_steeringTarget_m411BD180988E7D64763EFE8799C3899B5FE1B2B3,
-	NavMeshAgent_get_desiredVelocity_mE10A8D32D38E6C09DDAFDFF924C4032FED344A2D,
-	NavMeshAgent_get_remainingDistance_m47A559FB06896E86E44A8DD7C756722E0E6EA9DB,
-	NavMeshAgent_get_baseOffset_mF9D77383CBC4608A3F0F06171D34F5829A72B2DB,
-	NavMeshAgent_get_isOnOffMeshLink_m38DEAC060DE2EF6D5DD76A8565FEE3714B4C8BE6,
-	NavMeshAgent_ActivateCurrentOffMeshLink_m4C7F12261E1E269C573454868A6D2C1EB3B49093,
-	NavMeshAgent_get_currentOffMeshLinkData_mBE074FBE47FBBE2B6870A5A6194551EAA5BF7402,
-	NavMeshAgent_GetCurrentOffMeshLinkDataInternal_mA06FDA5FF5CAC132D2FEA11B99EBDFE5C6506052,
-	NavMeshAgent_get_nextOffMeshLinkData_m6F799B5C12B3D8F17BEC9DA3C8E61B97BA59791E,
-	NavMeshAgent_GetNextOffMeshLinkDataInternal_m0B2D71C3DCC66FC83961EC42FAA61C1542E0992D,
-	NavMeshAgent_CompleteOffMeshLink_m8B87FABB02A4F25EDD43B25D3B8AB1E5564DD526,
-	NavMeshAgent_get_autoTraverseOffMeshLink_m81B1B5880209311FA5F5C5ED256C7E1BC2786902,
-	NavMeshAgent_set_autoTraverseOffMeshLink_m17EF1B38A7E241F29402334A2D01660DA68D766E,
-	NavMeshAgent_get_autoBraking_m7F98CFFD8750CDCF0F82EB4A829C93D83A9C7C9C,
-	NavMeshAgent_set_autoBraking_m2B293376C0453D228E7A976449C4970488EF949B,
-	NavMeshAgent_get_autoRepath_m67E478767FA046933F387C60AB09D19E2D78AAA4,
-	NavMeshAgent_set_autoRepath_m88A0DC38794D20979FAE19736F736B81CABF7300,
-	NavMeshAgent_get_hasPath_mBBE9EE18E2E915F36B78E72A6049EFCBD60AA1D5,
-	NavMeshAgent_get_pathPending_m542D83599C5ED9DD09CB1A981A1F5D4C707542B4,
-	NavMeshAgent_get_isPathStale_m12C7377E270FB8A889BC69AA777F9DEF79A5B6FD,
-	NavMeshAgent_get_pathStatus_m4771E65EE49770022C83F97B24E520064F72B22C,
-	NavMeshAgent_Warp_m364A2B156D1325BE4F4907E44D0AAE0416C470BE,
-	NavMeshAgent_Move_m7D0B1AB957FE3BBED5E55CB29B8E1A1D79ABE452,
-	NavMeshAgent_Stop_mCF11594F994AC1901F9FF7FC615E170D58506D74,
-	NavMeshAgent_Resume_mB0ED3CE7EFFA68CF75FBAA5D2A32EB289FB0A68A,
-	NavMeshAgent_get_isStopped_mDDB1D71B22CDF03B2AB45DF354CD7FBDBB23207B,
-	NavMeshAgent_set_isStopped_m3E8EA397B333B4E93272834CC398F87CEA572F81,
-	NavMeshAgent_ResetPath_m8DBBB03A3FDBB3A70420AE0EC11FE39B5A914DBD,
-	NavMeshAgent_SetPath_mF7D5D0C94BB1A936E405BE8E300FD2734FE9E24C,
-	NavMeshAgent_FindClosestEdge_m588D272C29C8F8864477583239B450BF2A916C5F,
-	NavMeshAgent_Raycast_m0F3ADC0A89013B1B4BD6DCE02CF7C879E3829019,
-	NavMeshAgent_SamplePathPosition_m40E25C1FB5D7DD4C469932C5C070CB06DC92A31D,
-	NavMeshAgent_SetAreaCost_mDC73FE0792264C180B4790273BDE371C32824EFD,
-	NavMeshAgent_GetAreaCost_mC58BAD2C7C18D633760CAE775EF408B5B59F612F,
-	NavMeshAgent_get_areaMask_m6DEDC591AAA3D0E046D7F3967F2E417ECF549709,
-	NavMeshAgent_set_areaMask_m5B5E9AE3590E6341CBB15F763D99E3F6DF785C5F,
-	NavMeshAgent_get_speed_mED796DC28B1B5D848CA96E1831DA12696A595AC6,
-	NavMeshAgent_set_speed_mE709E788BFB285190B9504F6DB3199B35B9B0D35,
-	NavMeshAgent_get_angularSpeed_m8323CACEEDD36B7FB7F0611094DDAB721D5239B9,
-	NavMeshAgent_set_angularSpeed_m90DB947AF61F1AEA798FF5194961B2DA63219FC0,
-	NavMeshAgent_get_acceleration_m32D39F067A655630FDE36E53E6DC77BEAB76D104,
-	NavMeshAgent_set_acceleration_mA37022F97D535F75B34C7D07FA50A8D89639F3F7,
-	NavMeshAgent_get_updatePosition_mB3F9500A6B866A1E24A8D6D3C282A6AF0F42A76C,
-	NavMeshAgent_set_updatePosition_m8F28C0A5DA1051B0EBED424C00F3A7B6656B69F2,
-	NavMeshAgent_get_updateRotation_mAFFE2377573F070D2DC84A0DE00D2DA1982A1C39,
-	NavMeshAgent_set_updateRotation_m1E4DC8D291EFB628A3A2D353DB7B3E2C54321084,
-	NavMeshAgent_get_radius_m198C01AF5BF7DEBB051A058598118B6338A51AF6,
-	NavMeshAgent_set_radius_m2E463B45C10BF90FB30A154104FF2B34DCDD50FB,
-	NavMeshAgent_get_height_m20E9A1FF19845A0BDA3853731E22D51CCAA85E88,
-	NavMeshAgent_set_height_mA2242A62C68F278070968A9792598EA0CE27FE2B,
-	NavMeshAgent_get_obstacleAvoidanceType_m80675EC9FB6AC24BE3BFA3AE743DFBEAD8211249,
-	NavMeshAgent_set_obstacleAvoidanceType_m91F68AD6A6DCAFE076BE152BE713A8FDFFE154E3,
-	NavMeshAgent_get_avoidancePriority_m8515DE816EF0F3375E3C9A6DFC056A1D06ADE17F,
-	NavMeshAgent_set_avoidancePriority_mE28A441410C3BB27917007729ADED20FCB397740,
-	NavMeshAgent_SetDestination_Injected_m03F00018E71D91B109510C2EF1F01A3ECD84FF89,
-	NavMeshAgent_get_destination_Injected_m9511EDAA7C1AB027DA66BC4B41F42A5423F09B60,
-	NavMeshAgent_get_velocity_Injected_mBBFC5D1D8F50C16F9ACD5FCC0A0E50A0FE525FB3,
-	NavMeshAgent_set_velocity_Injected_m9ADDFC4830CD5FDCCD02BAE604CC87823547DF69,
-	NavMeshAgent_get_nextPosition_Injected_m2A9B049296CEF9061ECF549009817F9BD4AF75FD,
-	NavMeshAgent_get_steeringTarget_Injected_mA5A105C0063088BDBB242C3515F6A97928F997E5,
-	NavMeshAgent_get_desiredVelocity_Injected_m57EB8C1C7151A42BBEC5677CE1E5823AAE6F6D8A,
-	NavMeshAgent_GetCurrentOffMeshLinkDataInternal_Injected_m00377CC810AFA5B16992273B778B4D4AF93B9C17,
-	NavMeshAgent_GetNextOffMeshLinkDataInternal_Injected_mD14E1390356AB8C121106B088FAB4855639FB3D2,
-	NavMeshAgent_Warp_Injected_mFCA10F43C2EF33F19B74AD59EC9E4F57179E60CC,
-	NavMeshAgent_Move_Injected_mC4C4018AE7B0382743D0E65A312F1585722F9388,
-	NavMeshAgent_Raycast_Injected_m972395B660B32ACB5D520142DE72C4179925D9EB,
-	OffMeshLinkData_get_valid_m0AF43B2E1EA3DB26D0C252F75A674489FF3B8704_AdjustorThunk,
-	OffMeshLinkData_get_activated_m2188593A94B2E63FE49918E2E55F644758B485B8_AdjustorThunk,
-	OffMeshLinkData_get_linkType_mCC2045B8FD2C87BAB822A89C737C4052F4428B3A_AdjustorThunk,
-	OffMeshLinkData_get_startPos_mE4F3E1584843DA41AEB4E825D6B4BC3402BAE102_AdjustorThunk,
-	OffMeshLinkData_get_endPos_m5323AA6DD85DF5931D9C4FA5B29D28865AD8C1AB_AdjustorThunk,
-	OffMeshLinkData_get_offMeshLink_mFDED08416F4EA085C5CF9E78C229E11377638FCD_AdjustorThunk,
-	OffMeshLinkData_GetOffMeshLinkInternal_m7EF22119D979345D782AB112322930B557EDCAF7,
-	OffMeshLink_get_activated_m886A3D4A1A19E7095A62DC4104E3EFAAAEBD0E36,
-	OffMeshLink_get_occupied_m21E52EBB909F18B71DE5B8D3F44F2D19496D0C83,
-	OffMeshLink_get_costOverride_mE8457C78C3C37E26CF75313EC89CC344494CB2DB,
-	OffMeshLink_get_biDirectional_m9F2A75C340EA577EB301224905D74DED2AF42C8B,
-	OffMeshLink_get_area_m2D096C13D51088E43B262769ADDB0478F9991829,
-	OffMeshLink_get_autoUpdatePositions_m1928672A949E39583C43A1AE3140DA6B60ECBFF3,
-	OffMeshLink_get_startTransform_mF41F10A6AD72A4AEEC844F89F670A7E358E75AF7,
-	OffMeshLink_get_endTransform_m7ED02E906DA8D0E355A78690028DF517C9BD0B93,
-	OffMeshLink__ctor_m0104211F63E10AC2EDF28AC064B142FEBD0C0316,
-	NavMeshHit_get_position_m0AEED90D6B4FDE74045975E40B0A9C365F152F9E_AdjustorThunk,
-	NavMeshHit_get_normal_mE6E0C698EE5B90000B039D3219B31B3CC8C1313A_AdjustorThunk,
-	NavMeshHit_get_distance_m7C4397469489D9A3F5758B0EA4E4E9CF9C753F82_AdjustorThunk,
-	NavMeshHit_get_mask_mCCB5AAE13E84AD0037F8A68ACB846DBC532E1E43_AdjustorThunk,
-	NavMeshHit_get_hit_mCFD12D7F847527E72786363ACDB9FFCBA59C6697_AdjustorThunk,
-	NavMesh_Internal_CallOnNavMeshPreUpdate_mED6CAB94A6CB61A5FD547B7026DB4C96F2AF5B60,
-	NavMesh_Raycast_m0E4247157F4146EEB3767DCE8D06A756A587F5D7,
-	NavMesh_CalculatePath_mCF9690B429137161B20FF8AEA81DB02A1D825D62,
-	NavMesh_CalculatePathInternal_m5D4F3A7F26D2A2FA51E85D29E279CA70919C764C,
-	NavMesh_FindClosestEdge_m1555BBE4B7C5DE4C45B05205E383416260DDC462,
-	NavMesh_SamplePosition_m783F8639449F56E7CA222A58E40323404E56C19E,
-	NavMesh_SetAreaCost_mDAEA264387A5E2154D8CF0761F2F305B21046BE9,
-	NavMesh_GetAreaCost_m15C8B162C0AAB96E531D674CB367E0ADDA78F333,
-	NavMesh_GetAreaFromName_m3796CB0ABAFEDDBFC94792B8888926A17361CD81,
-	NavMesh_Raycast_Injected_mEAF30F89A8557A0F3C538143FC855039F9067E63,
-	NavMesh_CalculatePathInternal_Injected_mF0ED4ECC69594E07FC412C14366F68BB29AE28F5,
-	NavMesh_FindClosestEdge_Injected_m41EFCB3C5D679FC2F7C37AE713D72BA3C4EA2C1C,
-	NavMesh_SamplePosition_Injected_mF979357B944CC071BB59B94C8962F664F9390550,
-	OnNavMeshPreUpdate__ctor_mD019C429BD8D299B85C320A6EFB2FFEDC3F85F42,
-	OnNavMeshPreUpdate_Invoke_mE56CD30B200FECFD94AD4B22923B32BD789D70F0,
-	OnNavMeshPreUpdate_BeginInvoke_m67FA7767274E77169A57ADFE041EA9B914E752C6,
-	OnNavMeshPreUpdate_EndInvoke_mB55765702AA123A6D7C3DF8DDC597E3DEBC79836,
+	NavMeshAgent_SetDestination_mD5D960933827F1F14B29CF4A3B6F305C064EBF46,
+	NavMeshAgent_get_destination_m1BE2C5EEF53F7EB6317449726C99E0D0955C677E,
+	NavMeshAgent_get_stoppingDistance_mA866A409C59878849D63BEC61517DE4F906BEEC4,
+	NavMeshAgent_set_stoppingDistance_m288A6280B55AAFF8578286747E19AF409C7C177F,
+	NavMeshAgent_get_velocity_m028219D0E4678D727F00C53AE3DCBCF29AF04DA7,
+	NavMeshAgent_set_velocity_m3C061136C7F338D33A5DE734B5C364326F6F4B31,
+	NavMeshAgent_get_nextPosition_m2EA2776CDA9032AE13B697C0F2FC2DD1194307BE,
+	NavMeshAgent_get_steeringTarget_mA2DB66413FC7628DCDB1DECF38269A70EC60351C,
+	NavMeshAgent_get_desiredVelocity_m8CF3F6E3FA8EE86397DD02146AA6048949B74F52,
+	NavMeshAgent_get_remainingDistance_m051C1B408E2740A95B5A5577C5EC7222311AA73A,
+	NavMeshAgent_get_baseOffset_m4DACBF9B4216DFDC8F1F74DD80C1F2FEED6C5951,
+	NavMeshAgent_get_isOnOffMeshLink_m1A41E849AC5CDDC81F14288FA69C4159090157FC,
+	NavMeshAgent_ActivateCurrentOffMeshLink_m47987303EF43734AA8997AF7D9BB97C4F4D27477,
+	NavMeshAgent_get_currentOffMeshLinkData_m3C29286C945248C78CD40C544606D0BFA6EC5028,
+	NavMeshAgent_GetCurrentOffMeshLinkDataInternal_m00D8106BBA99C267CAC0A360DE74DCB87709DD26,
+	NavMeshAgent_get_nextOffMeshLinkData_mFC373D1BA567F89B5293257F00C24FE31E5A1585,
+	NavMeshAgent_GetNextOffMeshLinkDataInternal_mF455C74B63F15D0ED3C7C995567759492D4400C1,
+	NavMeshAgent_CompleteOffMeshLink_mD0E51EF45F50FB6FBA70F86E1DBB4DF54651853D,
+	NavMeshAgent_get_autoTraverseOffMeshLink_mD5DF56E23AC1424496785C83AE44F1DB83F953F4,
+	NavMeshAgent_set_autoTraverseOffMeshLink_m68DDB55CB2557A1A69534212B896A0C52146841A,
+	NavMeshAgent_get_autoBraking_mC30BD28DED5FBB909314808F5D11409B126DF49C,
+	NavMeshAgent_set_autoBraking_m3BBDC74E6ADC3EB8BE0381C97B1D8715C1BC5283,
+	NavMeshAgent_get_autoRepath_m191D1F1708A9A2E6060CAD0E0965D18E635BAF72,
+	NavMeshAgent_set_autoRepath_mDF2F2C2AEA95552CF5C183DC0A471AF3EE7BAF9F,
+	NavMeshAgent_get_hasPath_mE56295431F7774ADC8C39CFD87E13073DDDA178A,
+	NavMeshAgent_get_pathPending_mA806A4DC1E06CA32A4E7E71B6846B516EC8C2487,
+	NavMeshAgent_get_isPathStale_m346E8A08F9709FA223EA26A37B259B806D916533,
+	NavMeshAgent_get_pathStatus_m86F0B08D0018E3230218F8ED3A7C522A3765B648,
+	NavMeshAgent_Warp_mAD14E576F74544EEDAD0AF097E498C58D3C0E4F5,
+	NavMeshAgent_Move_m90D996635C2056733BB3497CB716DA2E8CB9DCB9,
+	NavMeshAgent_Stop_m54AC1CA5B0CF2A3F02FC0746D99995B5A0FFC706,
+	NavMeshAgent_Resume_m8AEA32BF25F490639E692879BF6000F550880DD7,
+	NavMeshAgent_get_isStopped_m1CF52CE58CC025C1617F9E745924624C35D0B598,
+	NavMeshAgent_set_isStopped_mF374E697F39845233B84D8C4873DEABC3AA490DF,
+	NavMeshAgent_ResetPath_mE29D3956C1BFABDB3D6B4B7DF2B376B4EEB24E7F,
+	NavMeshAgent_SetPath_m52F66FD27D02DE634BAF3AC2B521017B4299DB8C,
+	NavMeshAgent_FindClosestEdge_mA55CBF92C20E11FC2F2A6F18F3B22441112AD36B,
+	NavMeshAgent_Raycast_m9F55253A08170D3CD6AC2B7EDCABE78F255F1ACB,
+	NavMeshAgent_SamplePathPosition_m6D4FD92B8727871A131A1E20AF0F3EDE20AE694A,
+	NavMeshAgent_SetAreaCost_mADAA5F8F12B0DA6E5D1842EBEB5D136FDBFCF69F,
+	NavMeshAgent_GetAreaCost_m881A90DAE297DACC2175133B52FC1EB36E128F35,
+	NavMeshAgent_get_areaMask_m7C52D09097A66CC43AA0F1237E59ECE4340F62F7,
+	NavMeshAgent_set_areaMask_m0ABFF50C3D80EC90887AB44BCDDB0935CE947DC2,
+	NavMeshAgent_get_speed_m3E4720882ED0C65A4E19AADD53BB6CFFB5BB1345,
+	NavMeshAgent_set_speed_m820E45289B3AE7DEE16F2F4BF163EAC361E64646,
+	NavMeshAgent_get_angularSpeed_m3767F066BFA2C5130EB4662234442B530ACC0290,
+	NavMeshAgent_set_angularSpeed_mD2AE9EE187EF1C45F519576B5FC8581DC6B7D683,
+	NavMeshAgent_get_acceleration_m130C96AAA6246983D17AEB4EB4FC6ECAE9800D5E,
+	NavMeshAgent_set_acceleration_mEAA92D7837B8D726891846DBBB6114DB13CD597E,
+	NavMeshAgent_get_updatePosition_m7A3ECBAC5345D34EF8896E7ACEDB9E459FFBD9AB,
+	NavMeshAgent_set_updatePosition_m25CA3F441A2EEC82096B4BCFAD4E5FDC10867372,
+	NavMeshAgent_get_updateRotation_m931B37F6BA4D560A9838ACD89A1470975E4D8F4D,
+	NavMeshAgent_set_updateRotation_mBF6EDBC9BBAF32490229D7DD6BC821A420C3399D,
+	NavMeshAgent_get_radius_m33C1D18A2605A958FE9E93F04981EB17FADE5957,
+	NavMeshAgent_set_radius_m34F08DD2BD01A5DDA17FE1B02EE03D361B44F1AC,
+	NavMeshAgent_get_height_m4C491622BF6FCDD917CDBD5650331CB90EF148D8,
+	NavMeshAgent_set_height_mD2993FBF9895084E9F92025808E3307B92E057DA,
+	NavMeshAgent_get_obstacleAvoidanceType_mE34163AD71944C30335B61CAA5024F4C7E585EFE,
+	NavMeshAgent_set_obstacleAvoidanceType_m4EF45925BCFD06A3A0FA64412F91687D40A738EF,
+	NavMeshAgent_get_avoidancePriority_m869E039275C430F74191DF92A8B4FAB1364BC4A3,
+	NavMeshAgent_set_avoidancePriority_m32203249C25C68E57764E9B6DB987D97EA846EC9,
+	NavMeshAgent_get_isOnNavMesh_m2463F49C3F37E9D3F68C04300FE5AF310C924405,
+	NavMeshAgent_SetDestination_Injected_mC3EF405F5AAFF9F98C5D5AECAD641525CDF742EA,
+	NavMeshAgent_get_destination_Injected_m864513574C2AD2BA558D85B213CC518C064F893A,
+	NavMeshAgent_get_velocity_Injected_m40A3E476CECB49AE84CA70761FB01FB5644B1735,
+	NavMeshAgent_set_velocity_Injected_m4F31B6257367AC3928D11C90C95AB9117692753B,
+	NavMeshAgent_get_nextPosition_Injected_m2955C285746F64E42865E074048341DE713A8EA0,
+	NavMeshAgent_get_steeringTarget_Injected_m00761894AB2F3B67A8775949DBF465506CD78DE1,
+	NavMeshAgent_get_desiredVelocity_Injected_m8793EE07C8733261F15C392B983113CBD225DA41,
+	NavMeshAgent_GetCurrentOffMeshLinkDataInternal_Injected_m20A673BF8CB87029AC2119A6C24B648EF624BDB6,
+	NavMeshAgent_GetNextOffMeshLinkDataInternal_Injected_mABF319B448FCC4CC42D0EFA3D5A31122271CD72A,
+	NavMeshAgent_Warp_Injected_m408EB62DABE62C1C5B568598DBF54FDCA502E56E,
+	NavMeshAgent_Move_Injected_m470CF469F6DE021B2C44A4CB3619AC9C441491D8,
+	NavMeshAgent_Raycast_Injected_m5FE7F79B900F3277C01D847E2FA0A6075D4D0015,
+	OffMeshLinkData_get_valid_m4B3E7BF807D9BBD61CD829FC5585F9460B823995,
+	OffMeshLinkData_get_activated_m921AD9DDD53B4E18CD991A2D7AF355828643916F,
+	OffMeshLinkData_get_linkType_mAAED25B893C730527A303F9B0D2D720337987418,
+	OffMeshLinkData_get_startPos_mE729D30C00CE20C1B54E92C0D06AA34FCC1C7E16,
+	OffMeshLinkData_get_endPos_m51E9004D45E0DC1D9481DEED18E344CD7EFED7A8,
+	OffMeshLinkData_get_offMeshLink_mCE63ED9125991BDEB961C01E4C8C957F396B9CEE,
+	OffMeshLinkData_GetOffMeshLinkInternal_mC841DD99A0DC4AA4F1C0D81A670B41A260C7B45B,
+	OffMeshLink_get_activated_m29F093186EC0A119CD94C4FD772E665FDA50A770,
+	OffMeshLink_get_occupied_m1616B04698D535E868BD2E00D7118DE08B4CA721,
+	OffMeshLink_get_costOverride_m2B078774331FDF57954E173393F8E94C8B0F81BF,
+	OffMeshLink_get_biDirectional_m4D162A4F9A71D7E4FA6A027B95F9DD66A5CE85FF,
+	OffMeshLink_get_area_m22933F2D04CD0BBE5048C5F377184669B429A754,
+	OffMeshLink_get_autoUpdatePositions_mD554C055303779396F013245BD32FDBE8239BBDB,
+	OffMeshLink_get_startTransform_mE75BE135D06ED4247C969B4E9D885F2433C97D13,
+	OffMeshLink_get_endTransform_mBF33A22072BBCF25485E0F932A06AE0C507A3B37,
+	OffMeshLink__ctor_m4A49ABF8B6C05AB98A90A7E921CD3837DAA916C1,
+	NavMeshHit_get_position_m09E8FF6DEF5BFA3F30B3C4BCA4642442FF1BCBF1,
+	NavMeshHit_get_normal_m5E0148A2DCFFFC8C1FFD624DB5423192BCA29F2E,
+	NavMeshHit_get_distance_m2B9E0F1A139278132493964480B1A833A4FCCFEB,
+	NavMeshHit_get_mask_m90866159EFD74EC854857ED33CBF1BA9BC04E927,
+	NavMeshHit_get_hit_m0D3EB9A3D6C24F769F3B994DC7326254B64EDD8E,
+	NavMesh_Internal_CallOnNavMeshPreUpdate_m2A62DB32F5E1435F527AD8A59A882B9F2A193177,
+	NavMesh_Raycast_m58FCFBAEC3D9E6F5A9537ED6782DDE066BD25FB7,
+	NavMesh_CalculatePath_m15FF9A2E008A90375072B9293D290D9167E580E9,
+	NavMesh_CalculatePathInternal_m4463C51C0B2370D61653C4BC002C2A4AB7C5370F,
+	NavMesh_FindClosestEdge_mB15BD11F352180085D038CBE8F1DB85CCD4D0B70,
+	NavMesh_SamplePosition_mEDAE8240217EED82B4519D4435E670A1655B2109,
+	NavMesh_SetAreaCost_m1D9E4FA3707EEF9CF6FC540B0D8A1B666FC587F6,
+	NavMesh_GetAreaCost_mD77D3F4F07CD03F73C8D794146C889F587930C70,
+	NavMesh_GetAreaFromName_m44C63F9ED1E0435B234699835C69A915BBC6580F,
+	NavMesh_Raycast_Injected_mD910319CCE7809C826DD0D502FDD8CD78E0BC331,
+	NavMesh_CalculatePathInternal_Injected_mA35693202F3421933D42D9DF44F6CB0880E3EEEA,
+	NavMesh_FindClosestEdge_Injected_mDE3BC2E6BB797C58A690B2E18F601B59DC699DC2,
+	NavMesh_SamplePosition_Injected_m57BB80634365C0545A79CC653FCFECAA1879C6F0,
+	OnNavMeshPreUpdate__ctor_m7142A3AA991BE50B637A16D946AB7604C64EF9BA,
+	OnNavMeshPreUpdate_Invoke_mFB224B9BBF9C78B7F39AA91A047F175C69897914,
+	NavMeshPath__ctor_mEA40BFC2492814FFC97A71C3AEC2154A9415C37F,
+	NavMeshPath_Finalize_mB151BFBD5D7E65C343415B6B332A58504F12AF77,
+	NavMeshPath_InitializeNavMeshPath_m14652B99A3EFB12B428AC2C959A629EE906DE5F1,
+	NavMeshPath_DestroyNavMeshPath_mAB640913E8A9F1BE03EF9103FF34D5F4C5EBE3F7,
+	NavMeshPath_CalculateCornersInternal_m59C910C60F8C28D4E387C93B299B7D3F76213850,
+	NavMeshPath_ClearCornersInternal_m2310C5CB9B4EB2B3C4685476B2CF8440ED369606,
+	NavMeshPath_ClearCorners_m8633C3989850C01982EBD3D4BC70E85AF461CE5B,
+	NavMeshPath_CalculateCorners_mFC7D66E9304DE81D6030B3FEB237754DFFFDF548,
+	NavMeshPath_get_corners_m469237DE430A001BE7050BEF5D05A20B94D76F3E,
+	NavMeshPath_get_status_m63B0AEDA3149C7053987C4D0A02B3FE8B41BD74B,
 };
-static const int32_t s_InvokerIndices[121] = 
+extern void OffMeshLinkData_get_valid_m4B3E7BF807D9BBD61CD829FC5585F9460B823995_AdjustorThunk (void);
+extern void OffMeshLinkData_get_activated_m921AD9DDD53B4E18CD991A2D7AF355828643916F_AdjustorThunk (void);
+extern void OffMeshLinkData_get_linkType_mAAED25B893C730527A303F9B0D2D720337987418_AdjustorThunk (void);
+extern void OffMeshLinkData_get_startPos_mE729D30C00CE20C1B54E92C0D06AA34FCC1C7E16_AdjustorThunk (void);
+extern void OffMeshLinkData_get_endPos_m51E9004D45E0DC1D9481DEED18E344CD7EFED7A8_AdjustorThunk (void);
+extern void OffMeshLinkData_get_offMeshLink_mCE63ED9125991BDEB961C01E4C8C957F396B9CEE_AdjustorThunk (void);
+extern void NavMeshHit_get_position_m09E8FF6DEF5BFA3F30B3C4BCA4642442FF1BCBF1_AdjustorThunk (void);
+extern void NavMeshHit_get_normal_m5E0148A2DCFFFC8C1FFD624DB5423192BCA29F2E_AdjustorThunk (void);
+extern void NavMeshHit_get_distance_m2B9E0F1A139278132493964480B1A833A4FCCFEB_AdjustorThunk (void);
+extern void NavMeshHit_get_mask_m90866159EFD74EC854857ED33CBF1BA9BC04E927_AdjustorThunk (void);
+extern void NavMeshHit_get_hit_m0D3EB9A3D6C24F769F3B994DC7326254B64EDD8E_AdjustorThunk (void);
+static Il2CppTokenAdjustorThunkPair s_adjustorThunks[11] = 
 {
-	23,
-	23,
-	722,
-	25,
-	14,
-	23,
-	23,
-	23,
-	14,
-	10,
-	1164,
-	1149,
-	689,
-	301,
-	1149,
-	1150,
-	1149,
-	1149,
-	1149,
-	689,
-	689,
-	114,
-	31,
-	1885,
-	1885,
-	1885,
-	1885,
-	23,
-	114,
-	31,
-	114,
-	31,
-	114,
-	31,
-	114,
-	114,
-	114,
-	10,
-	1164,
-	1150,
-	23,
-	23,
-	114,
-	31,
-	23,
-	9,
-	798,
-	1886,
-	1887,
-	940,
-	1204,
-	10,
-	32,
-	689,
-	301,
-	689,
-	301,
-	689,
-	301,
-	114,
-	31,
-	114,
-	31,
-	689,
-	301,
-	689,
-	301,
-	10,
-	32,
-	10,
-	32,
-	798,
-	6,
-	6,
-	6,
-	6,
-	6,
-	6,
-	6,
-	6,
-	798,
-	6,
-	799,
-	114,
-	114,
-	10,
-	1149,
-	1149,
-	14,
-	43,
-	114,
-	114,
-	689,
-	114,
-	10,
-	114,
-	14,
-	14,
-	23,
-	1149,
-	1149,
-	689,
-	10,
-	114,
-	3,
-	1888,
-	1889,
-	1889,
-	1890,
-	1891,
-	1200,
-	247,
-	95,
-	1892,
-	1893,
-	366,
-	1894,
-	102,
-	23,
-	113,
-	26,
+	{ 0x0600004B, OffMeshLinkData_get_valid_m4B3E7BF807D9BBD61CD829FC5585F9460B823995_AdjustorThunk },
+	{ 0x0600004C, OffMeshLinkData_get_activated_m921AD9DDD53B4E18CD991A2D7AF355828643916F_AdjustorThunk },
+	{ 0x0600004D, OffMeshLinkData_get_linkType_mAAED25B893C730527A303F9B0D2D720337987418_AdjustorThunk },
+	{ 0x0600004E, OffMeshLinkData_get_startPos_mE729D30C00CE20C1B54E92C0D06AA34FCC1C7E16_AdjustorThunk },
+	{ 0x0600004F, OffMeshLinkData_get_endPos_m51E9004D45E0DC1D9481DEED18E344CD7EFED7A8_AdjustorThunk },
+	{ 0x06000050, OffMeshLinkData_get_offMeshLink_mCE63ED9125991BDEB961C01E4C8C957F396B9CEE_AdjustorThunk },
+	{ 0x0600005B, NavMeshHit_get_position_m09E8FF6DEF5BFA3F30B3C4BCA4642442FF1BCBF1_AdjustorThunk },
+	{ 0x0600005C, NavMeshHit_get_normal_m5E0148A2DCFFFC8C1FFD624DB5423192BCA29F2E_AdjustorThunk },
+	{ 0x0600005D, NavMeshHit_get_distance_m2B9E0F1A139278132493964480B1A833A4FCCFEB_AdjustorThunk },
+	{ 0x0600005E, NavMeshHit_get_mask_m90866159EFD74EC854857ED33CBF1BA9BC04E927_AdjustorThunk },
+	{ 0x0600005F, NavMeshHit_get_hit_m0D3EB9A3D6C24F769F3B994DC7326254B64EDD8E_AdjustorThunk },
 };
-extern const Il2CppCodeGenModule g_UnityEngine_AIModuleCodeGenModule;
-const Il2CppCodeGenModule g_UnityEngine_AIModuleCodeGenModule = 
+static const int32_t s_InvokerIndices[120] = 
+{
+	4635,
+	7994,
+	7927,
+	6356,
+	7994,
+	6420,
+	7994,
+	7994,
+	7994,
+	7927,
+	7927,
+	7749,
+	6183,
+	7868,
+	7868,
+	7868,
+	7868,
+	8006,
+	7749,
+	6183,
+	7749,
+	6183,
+	7749,
+	6183,
+	7749,
+	7749,
+	7749,
+	7830,
+	4635,
+	6420,
+	8006,
+	8006,
+	7749,
+	6183,
+	8006,
+	4508,
+	4365,
+	2227,
+	1298,
+	3271,
+	5712,
+	7830,
+	6264,
+	7927,
+	6356,
+	7927,
+	6356,
+	7927,
+	6356,
+	7749,
+	6183,
+	7749,
+	6183,
+	7927,
+	6356,
+	7927,
+	6356,
+	7830,
+	6264,
+	7830,
+	6264,
+	7749,
+	4365,
+	6167,
+	6167,
+	6167,
+	6167,
+	6167,
+	6167,
+	6167,
+	6167,
+	4365,
+	6167,
+	2038,
+	7749,
+	7749,
+	7830,
+	7994,
+	7994,
+	7867,
+	12719,
+	7749,
+	7749,
+	7927,
+	7749,
+	7830,
+	7749,
+	7867,
+	7867,
+	8006,
+	7994,
+	7994,
+	7927,
+	7830,
+	7749,
+	13937,
+	9201,
+	9203,
+	9203,
+	9895,
+	9200,
+	11534,
+	12821,
+	12605,
+	9151,
+	9155,
+	9832,
+	9156,
+	3522,
+	8006,
+	8006,
+	8006,
+	13876,
+	13026,
+	7867,
+	8006,
+	8006,
+	8006,
+	7867,
+	7830,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_AIModule_CodeGenModule;
+const Il2CppCodeGenModule g_UnityEngine_AIModule_CodeGenModule = 
 {
 	"UnityEngine.AIModule.dll",
-	121,
+	120,
 	s_methodPointers,
+	11,
+	s_adjustorThunks,
 	s_InvokerIndices,
 	0,
 	NULL,
 	0,
 	NULL,
 	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
 	NULL,
 	NULL,
 };

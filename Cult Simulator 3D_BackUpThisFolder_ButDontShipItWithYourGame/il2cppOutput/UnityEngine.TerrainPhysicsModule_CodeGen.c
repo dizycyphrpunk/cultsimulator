@@ -1,11 +1,9 @@
-﻿#include "il2cpp-config.h"
-
+﻿#include "pch-c.h"
 #ifndef _MSC_VER
 # include <alloca.h>
 #else
 # include <malloc.h>
 #endif
-
 
 
 #include "codegen/il2cpp-codegen-metadata.h"
@@ -14,24 +12,24 @@
 
 
 
-IL2CPP_EXTERN_C_BEGIN
-IL2CPP_EXTERN_C_END
-
-
-
-
-extern const Il2CppCodeGenModule g_UnityEngine_TerrainPhysicsModuleCodeGenModule;
-const Il2CppCodeGenModule g_UnityEngine_TerrainPhysicsModuleCodeGenModule = 
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_TerrainPhysicsModule_CodeGenModule;
+const Il2CppCodeGenModule g_UnityEngine_TerrainPhysicsModule_CodeGenModule = 
 {
 	"UnityEngine.TerrainPhysicsModule.dll",
 	0,
 	NULL,
+	0,
+	NULL,
 	NULL,
 	0,
 	NULL,
 	0,
 	NULL,
 	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
 	NULL,
 	NULL,
 };

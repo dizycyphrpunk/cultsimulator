@@ -1,11 +1,9 @@
-﻿#include "il2cpp-config.h"
-
+﻿#include "pch-c.h"
 #ifndef _MSC_VER
 # include <alloca.h>
 #else
 # include <malloc.h>
 #endif
-
 
 
 #include "codegen/il2cpp-codegen-metadata.h"
@@ -14,38 +12,36 @@
 
 
 
-IL2CPP_EXTERN_C_BEGIN
-IL2CPP_EXTERN_C_END
-
-
-
-
-// 0x00000001 System.Void UnityEngine.ScreenCapture::CaptureScreenshot(System.String,System.Int32)
-extern void ScreenCapture_CaptureScreenshot_mA88C29DE20E6D8A377067E2B445C7FC33EEB8CB0 ();
-// 0x00000002 System.Void UnityEngine.ScreenCapture::CaptureScreenshot(System.String,System.Int32,UnityEngine.ScreenCapture_StereoScreenCaptureMode)
-extern void ScreenCapture_CaptureScreenshot_mF82CEBF1EA33CC8F0648845555D117EB6928DFA8 ();
+extern void ScreenCapture_CaptureScreenshot_m37F1E4165A2EF8B8F30294E91DC0CCA9CE0DD18A (void);
+extern void ScreenCapture_CaptureScreenshot_m35F14D593665968FE8F449104B66CE35EB22344D (void);
 static Il2CppMethodPointer s_methodPointers[2] = 
 {
-	ScreenCapture_CaptureScreenshot_mA88C29DE20E6D8A377067E2B445C7FC33EEB8CB0,
-	ScreenCapture_CaptureScreenshot_mF82CEBF1EA33CC8F0648845555D117EB6928DFA8,
+	ScreenCapture_CaptureScreenshot_m37F1E4165A2EF8B8F30294E91DC0CCA9CE0DD18A,
+	ScreenCapture_CaptureScreenshot_m35F14D593665968FE8F449104B66CE35EB22344D,
 };
 static const int32_t s_InvokerIndices[2] = 
 {
-	334,
-	155,
+	11608,
+	10437,
 };
-extern const Il2CppCodeGenModule g_UnityEngine_ScreenCaptureModuleCodeGenModule;
-const Il2CppCodeGenModule g_UnityEngine_ScreenCaptureModuleCodeGenModule = 
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_ScreenCaptureModule_CodeGenModule;
+const Il2CppCodeGenModule g_UnityEngine_ScreenCaptureModule_CodeGenModule = 
 {
 	"UnityEngine.ScreenCaptureModule.dll",
 	2,
 	s_methodPointers,
+	0,
+	NULL,
 	s_InvokerIndices,
 	0,
 	NULL,
 	0,
 	NULL,
 	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
 	NULL,
 	NULL,
 };

@@ -1,11 +1,9 @@
-﻿#include "il2cpp-config.h"
-
+﻿#include "pch-c.h"
 #ifndef _MSC_VER
 # include <alloca.h>
 #else
 # include <malloc.h>
 #endif
-
 
 
 #include "codegen/il2cpp-codegen-metadata.h"
@@ -14,42 +12,39 @@
 
 
 
-IL2CPP_EXTERN_C_BEGIN
-IL2CPP_EXTERN_C_END
-
-
-
-
-// 0x00000001 System.Void UnityEngine.Playables.PlayableDirector::SendOnPlayableDirectorPlay()
-extern void PlayableDirector_SendOnPlayableDirectorPlay_m4E9920374473D4726C270EF6ECACA93303C7BA87 ();
-// 0x00000002 System.Void UnityEngine.Playables.PlayableDirector::SendOnPlayableDirectorPause()
-extern void PlayableDirector_SendOnPlayableDirectorPause_m4E43A08D82CCE58DE75A1D9605A716BD85837F81 ();
-// 0x00000003 System.Void UnityEngine.Playables.PlayableDirector::SendOnPlayableDirectorStop()
-extern void PlayableDirector_SendOnPlayableDirectorStop_mB1699B938518B0D2CBB70B6A7678FBA8A83839A8 ();
+extern void PlayableDirector_SendOnPlayableDirectorPlay_m7F75DBA4355DAA92F53AC337BB952069B63081A0 (void);
+extern void PlayableDirector_SendOnPlayableDirectorPause_m1B8EE7CBD23957C664AA417A9261194DFFFADFE1 (void);
+extern void PlayableDirector_SendOnPlayableDirectorStop_m4E9AEB579B8EA66ECC6FA9BE23BBF7973AB3EDD7 (void);
 static Il2CppMethodPointer s_methodPointers[3] = 
 {
-	PlayableDirector_SendOnPlayableDirectorPlay_m4E9920374473D4726C270EF6ECACA93303C7BA87,
-	PlayableDirector_SendOnPlayableDirectorPause_m4E43A08D82CCE58DE75A1D9605A716BD85837F81,
-	PlayableDirector_SendOnPlayableDirectorStop_mB1699B938518B0D2CBB70B6A7678FBA8A83839A8,
+	PlayableDirector_SendOnPlayableDirectorPlay_m7F75DBA4355DAA92F53AC337BB952069B63081A0,
+	PlayableDirector_SendOnPlayableDirectorPause_m1B8EE7CBD23957C664AA417A9261194DFFFADFE1,
+	PlayableDirector_SendOnPlayableDirectorStop_m4E9AEB579B8EA66ECC6FA9BE23BBF7973AB3EDD7,
 };
 static const int32_t s_InvokerIndices[3] = 
 {
-	23,
-	23,
-	23,
+	8006,
+	8006,
+	8006,
 };
-extern const Il2CppCodeGenModule g_UnityEngine_DirectorModuleCodeGenModule;
-const Il2CppCodeGenModule g_UnityEngine_DirectorModuleCodeGenModule = 
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_DirectorModule_CodeGenModule;
+const Il2CppCodeGenModule g_UnityEngine_DirectorModule_CodeGenModule = 
 {
 	"UnityEngine.DirectorModule.dll",
 	3,
 	s_methodPointers,
+	0,
+	NULL,
 	s_InvokerIndices,
 	0,
 	NULL,
 	0,
 	NULL,
 	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
 	NULL,
 	NULL,
 };
